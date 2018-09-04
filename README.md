@@ -16,7 +16,7 @@
 
 1. Type command on your Terminal  
 
-  1. `git clone https://github.com/qqep685d/Rails_Env_on_Docker.git`
+  1. `git clone https://github.com/qqep685d/Rails-Environment-on-Docker.git`
 
   1. `cd Rails_on_Docker`
 
