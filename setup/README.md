@@ -24,30 +24,30 @@
 
 ## Basic usage
 
-  -  Application Create/Destroy commands
-    - `make new` = Create new application
-    - `make destroy` = Destroy the application
+  - Start-up / Destroy Application
+    - Setup new application: `make new`  
+    - Destroy the application: `make destroy`  
 
 
   - Docker Compose commands using Makefile
-    - `make build` = `docker-compose build`
-    - `make up` = `docker-compose up`
-    - `make upd` = `docker-compose up -d`
-    - `make down` = `docker-compose down`
-    - `make restart` = `docker-compose stop &&  docker-compose start`
-    - `make clean` = `docker image prune -f`
+    - `make build`
+    - `make up`
+    - `make upd`
+    - `make down`
+    - `make restart`
+    - `make clean`
 
 
   - Rails commands using Makefile
-    - `make rc` = `docker-compose run --rm web rails console`
-    - `make rr` = `docker-compose run --rm web rails routes`
-    - `make rt` = `docker-compose run --rm web rails test`
-    - `make dbc` = `docker-compose run --rm web rails db:create`
-    - `make dbm` = `docker-compose run --rm web rails db:migrate`
-    - `make dbs` = `docker-compose run --rm web rails db:seed`
+    - `make rc`
+    - `make rr`
+    - `make rt`
+    - `make dbc`
+    - `make dbm`
+    - `make dbs`
 
 
-  - Other Rails commands
+  - Rails commands
     - `docker-compose run --rm web [rails commands]`
     - `docker-compose run --rm web rails g model ...`
     - `docker-compose run --rm web rails g controller ...`
