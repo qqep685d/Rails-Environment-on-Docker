@@ -24,12 +24,15 @@
 
 ## Basic usage
 
+
   -  Application Create/Destroy commands
+
     - `make new` = Create new application
     - `make destroy` = Destroy the application
 
 
   - Docker Compose commands using Makefile
+
     - `make build` = `docker-compose build`
     - `make up` = `docker-compose up`
     - `make upd` = `docker-compose up -d`
@@ -39,6 +42,7 @@
 
 
   - Rails commands using Makefile
+
     - `make rc` = `docker-compose run --rm web rails console`
     - `make rr` = `docker-compose run --rm web rails routes`
     - `make rt` = `docker-compose run --rm web rails test`
@@ -53,6 +57,12 @@
     - `docker-compose run --rm web rails g controller ...`
 
 
+---
+
+## 欠点
+- 環境構築毎に約1.44GBのイメージが作成される
+
+---
 
 ## Useful references
 - Docker + Rails + MySQL の開発環境  
